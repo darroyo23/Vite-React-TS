@@ -7,9 +7,9 @@ import { ItemCounter } from './shopping-cart/ItemCounter'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {/* <FirstStepsApp /> */}
+    <FirstStepsApp />
     {/* <MyAwesomeApp /> */}
-    <ItemCounter Name="Play 5" quantity={1} />
-    <ItemCounter Name="Xbox" quantity={3} />
+    {/*  <ItemCounter Name="Play 5" quantity={1} />
+    <ItemCounter Name="Xbox" quantity={3} /> */}
   </StrictMode>
 )
